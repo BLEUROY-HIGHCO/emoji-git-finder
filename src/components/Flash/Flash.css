@@ -1,0 +1,21 @@
+.flash-container {
+    min-width: 30%;
+    text-align: left;
+    background: rgba(34, 34, 34, 0.9);
+    color: rgba(255,255,255,0.8);
+    bottom: 30px;
+    position: fixed;
+    right: 10px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.flash-container img {
+    height: 25px;
+}
+
+.flash-container span {
+    vertical-align: super;
+    margin-left: 5px;
+}
