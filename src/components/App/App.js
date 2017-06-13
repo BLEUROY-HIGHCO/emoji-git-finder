@@ -58,7 +58,7 @@ class App extends Component {
 
   renderEmojis = () => {
     if (this.state.emojis === null) {
-      return <Loader />
+      return <Loader />;
     }
 
     return _.filter( this.state.emojis,

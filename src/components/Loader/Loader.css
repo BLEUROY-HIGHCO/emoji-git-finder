@@ -10,6 +10,8 @@ body {
     width: 480px;
     height: 360px;
     animation: 2.74s linear infinite loading-cat;
+    margin-left: -240px;
+    left: 50%;
 }
 .loading-cat .head, .loading-cat .foot, .loading-cat .body {
     position: absolute;
